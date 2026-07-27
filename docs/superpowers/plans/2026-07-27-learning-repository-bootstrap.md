@@ -36,8 +36,8 @@
 
 - [x] **Step 1:** Write the README with goal, 2h/2h/1h weekly rhythm, weeks 1–8 current phase, and links to roadmap/backlog.
 - [x] **Step 2:** Write the roadmap: Python + LLM interface (1–8), single agent (9–16), RAG (17–24), workflows/framework mapping (25–28), multi-agent systems (29–32), production/portfolio (33–36).
-- [ ] **Step 3:** Run `rg "docs/(roadmap|backlog)\\.md" README.md`; expected: both links are returned.
-- [ ] **Step 4:** Commit:
+- [x] **Step 3:** Run `rg "docs/(roadmap|backlog)\\.md" README.md`; expected: both links are returned.
+- [x] **Step 4:** Commit:
 
 ```bash
 git add README.md docs/roadmap.md
@@ -57,7 +57,7 @@ git commit -m "docs: add AI Agent learning roadmap"
 - [x] **Step 1:** Write eight weekly tasks, each with a two-hour reading target, two-hour implementation target, and one-hour review target.
 - [x] **Step 2:** Cover Python environment, HTTP/JSON, LLM message semantics, token/cost observation, structured output, tool contracts, prompt-injection boundaries, and a small CLI assistant.
 - [x] **Step 3:** Add a “This week” pointer to `docs/backlog.md` in README.
-- [ ] **Step 4:** Run `rg "^## Week [1-8]" docs/backlog.md | wc -l`; expected: `8`.
+- [x] **Step 4:** Run `rg "^## Week [1-8]" docs/backlog.md | wc -l`; expected: `8`.
 - [ ] **Step 5:** Commit and publish:
 
 ```bash
